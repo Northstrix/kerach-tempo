@@ -59,7 +59,7 @@ const FloatingLabelInput: React.FC<FloatingLabelInputProps> = ({
   textareaHeight = "152px",
   parentBackground = "hsl(var(--card))",
   inputOutlineColor = "hsl(var(--border))",
-  inputFocusOutlineColor = "hsl(var(--ring))",
+  inputFocusOutlineColor = "hsl(var(--foreground))",
   outlineWidth = "1.5px",
   foregroundColor = "hsl(var(--foreground))",
   mutedForegroundColor = "hsl(var(--muted-foreground))",
@@ -271,6 +271,7 @@ const FloatingLabelInput: React.FC<FloatingLabelInputProps> = ({
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
+          border-radius: var(--radius);
         }
         .mobile-form-group.rtl .mobile-form-label {
           right: 12px;
@@ -288,6 +289,7 @@ const FloatingLabelInput: React.FC<FloatingLabelInputProps> = ({
           background: var(--parent-background);
           padding: var(--label-active-padding);
           z-index: 2;
+          border-radius: var(--radius);
         }
         .mobile-form-group.active .mobile-form-label {
            color: var(--accent-color);
@@ -324,6 +326,7 @@ const FloatingLabelInput: React.FC<FloatingLabelInputProps> = ({
           background: var(--parent-background);
           padding: var(--label-padding);
           text-align: left;
+          
         }
         .mobile-form-group.textarea:not(.active):not(.has-value).rtl
           .mobile-form-label {
