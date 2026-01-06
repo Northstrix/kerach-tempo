@@ -5,7 +5,7 @@ SourceForge page: https://sourceforge.net/projects/kerach-tempo/
 
 Check it out at: https://kerach-tempo.netlify.app/
 
-![Alt Preview](https://raw.githubusercontent.com/Northstrix/kerach-tempo/refs/heads/main/preview.png)
+![Alt Preview](https://raw.githubusercontent.com/Northstrix/kerach-tempo/refs/heads/main/preview.webp)
 
 ## Credit
 [Color Picker](https://21st.dev/community/components/uplusion23/color-picker/color-picker-with-swatches-and-onchange) by [Trevor McIntire](https://21st.dev/community/uplusion23)
